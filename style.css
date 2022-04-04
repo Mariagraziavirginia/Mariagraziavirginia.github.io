@@ -1,0 +1,62 @@
+
+body::after{
+    content: "";
+    background-image:url('images/chicchi-di-caffè-min.jpg') ; 
+    background-size: cover;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+  header {
+    text-align: center;
+    color: #e93578;
+    font-family: 'ABeeZee', sans-serif;
+    padding: 10;
+    margin-top: 10px;
+  }
+
+  header h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+} 
+
+  .nav {
+      background-color: #e93578;
+  }
+  
+  .nav-item a {
+      color: whitesmoke;
+      font-size: x-large;
+      font-family: 'ABeeZee', sans-serif;
+  }
+
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+
+  #welcome {
+      color: gold;
+      text-align: center;
+      font-family: 'ABeeZee', sans-serif;
+      font-size: 3.5rem;
+      font-weight: 500;
+      font-style: italic;
+  }
+
+  #div1 {
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: #e93578;
+      color: whitesmoke;
+      padding: 50px;
+      font-family: 'ABeeZee', sans-serif;
+      text-align: center;
+  }
