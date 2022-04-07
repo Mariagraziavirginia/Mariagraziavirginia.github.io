@@ -1,9 +1,10 @@
 
-body::after{
+body{
     content: "";
-    background-image:url('images/chicchi-di-caffè-min.jpg') ; 
+    background-image:url('images/chicchi-di-caffè-min-scura.jpg') ; 
     background-size: cover;
-    opacity: 0.7;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
     top: 0;
     left: 0;
     bottom: 0;
@@ -60,3 +61,44 @@ body::after{
       font-family: 'ABeeZee', sans-serif;
       text-align: center;
   }
+
+  /*secondary pages*/
+
+  .title {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+    font-family: 'ABeeZee', sans-serif;
+    margin-top: 10px;
+    font-size: 4.0rem;
+    font-weight: 600;
+  }
+
+  .title h1{
+    color: gold
+  }
+
+  .title p {
+    margin-bottom: 0%;
+  }
+
+  
+   #gallery img {
+   min-width: 100px;
+   min-height: 100px;
+   max-width: 200px;
+   max-height: 200px;
+   }
+
+  .img-thumbnail{
+    background-color: #e93578;
+  }
+
+  .col-6 {
+    float: left;
+  }
+
+  #map {
+    padding: 20px;
+  }
+  
