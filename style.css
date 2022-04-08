@@ -12,7 +12,7 @@ body{
     position: absolute;
     z-index: -1;   
   }
-  
+   
   header {
     text-align: center;
     color: #e93578;
@@ -29,7 +29,7 @@ body{
   .nav {
       background-color: #e93578;
   }
-  
+  /*navbar*/
   .nav-item a {
       color: whitesmoke;
       font-size: x-large;
@@ -82,7 +82,8 @@ body{
     margin-bottom: 0%;
   }
 
-  
+  /*locations*/
+
    #gallery img {
    min-width: 100px;
    min-height: 100px;
@@ -101,4 +102,16 @@ body{
   #map {
     padding: 20px;
   }
-  
+
+  /*our team*/
+
+  #cards .card{
+    background-color: #e93578;
+  }
+
+  /*contacts*/
+  #adress p{
+    background-color: #e93578;
+    padding: 10%;
+    color: whitesmoke;
+  }
