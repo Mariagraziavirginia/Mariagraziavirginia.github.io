@@ -29,12 +29,12 @@ body{
       font-family: 'ABeeZee', sans-serif;
   }
 
-  div.transbox {
+  /*div.transbox {
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
-  }
+  }*/
 
   #welcome {
       color: gold;
@@ -53,6 +53,9 @@ body{
       padding: 50px;
       font-family: 'ABeeZee', sans-serif;
       text-align: center;
+  }
+  #opening-times {
+    color: gold;
   }
 
   /*secondary pages*/
